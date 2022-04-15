@@ -10,3 +10,26 @@ function compute() {
         "You will receive an amount of <mark>" + interest + "</mark>,<br> " +
         "in the year <mark>" + yearInTheFuture + "</mark>";
 }
+
+
+function validateAmount(){
+    var principal = document.getElementById("principal").value;    
+    var input = document.getElementById("principal");
+
+    if (principal <0) {
+        alert("Enter a positive number.");
+        document.getElementById("principal").focus();
+    }
+}
+
+function validateNotBlank(){
+    var input = document.getElementById("principal");
+
+    if (input.value.length == Null){
+        alert("Please enter the amount.");
+        document.getElementById("principal").focus();
+    }
+}
+
+
+
