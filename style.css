@@ -1,4 +1,125 @@
-body {background-color:tan;}
-h1{color:green;}
+html {
+  background-color: black;
+}
+
+.box1{
+  padding: 3%;
+  width:auto;
+  height:500px;
+  background:white;
+  border-radius:30px;
+}
+
+body{
+  padding: 10px;
+  font-family: 'Verdana';
+}
+
+article {background-color: #ffffff}
+ 
+h1 {
+  display: block;
+  font-size: 3em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  color: grey;
+  font-family: 'Verdana';
+}
+
+.slider{
+  align-items: center;
+  float: inherit;
+  display: flex;
+  font-family: 'Verdana';
+}
+
+.slider p{
+  font-family: 'Verdana';
+}
 
 
+
+/*
+p{
+    color: #020202;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+   width: 50%;
+    margin: 1%;
+  }
+
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #039BE5;
+    padding-top: 5px;
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+  }
+
+  ul{
+    display: flex;
+  }
+
+  a, a:visited {
+    display: block;
+    text-decoration: none;
+    margin-right: 35px;
+  }
+
+  a {
+    display: inline;
+    text-decoration-line: none;
+    white-space: nowrap;
+  }
+
+  h1 {
+    display: block;
+    font-size: 3em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    color: black;
+    font-family: 'Courier New', monospace;
+  }
+
+  h2 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    color: #039BE5;
+    font-family: 'Courier New', monospace;
+  }
+
+  h3 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Courier New', monospace;
+  }
+
+  .header{
+    list-style: none;
+    color: white;
+  }
+  
+  .url{
+    color: #039BE5;
+  }
+  /*
